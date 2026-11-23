@@ -1,0 +1,35 @@
+# Python environments and caches
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Keep the repository MIDI-only: no recorded audio, video, or media packages.
+*.wav
+*.wave
+*.mp3
+*.flac
+*.aif
+*.aiff
+*.aac
+*.m4a
+*.ogg
+*.opus
+*.pcm
+*.f32
+*.mp4
+*.mov
+*.avi
+*.webm
+*.zip
+*.7z
+*.tar
+*.gz
+
+# Reproducible run records; the committed reference records remain tracked.
+results/generated/
+
+# Operating-system metadata
+.DS_Store
+Thumbs.db
+desktop.ini
