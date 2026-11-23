@@ -1,0 +1,170 @@
+{
+  "method": "Independent Euler-Maclaurin evaluation of zeta(0.5+i*gamma)",
+  "checked_count": 32,
+  "maximum_absolute_zeta_residual": 9.8373347991973e-09,
+  "checks": [
+    {
+      "zero_index": 1,
+      "gamma": 14.134725142,
+      "absolute_zeta_residual": 2.104304878092978e-10
+    },
+    {
+      "zero_index": 619,
+      "gamma": 963.182086671,
+      "absolute_zeta_residual": 5.521504763617573e-10
+    },
+    {
+      "zero_index": 1237,
+      "gamma": 1689.703154256,
+      "absolute_zeta_residual": 5.314275701571881e-10
+    },
+    {
+      "zero_index": 1854,
+      "gamma": 2361.342541642,
+      "absolute_zeta_residual": 3.681658850249896e-10
+    },
+    {
+      "zero_index": 2472,
+      "gamma": 3003.477042853,
+      "absolute_zeta_residual": 1.451172412960216e-09
+    },
+    {
+      "zero_index": 3090,
+      "gamma": 3622.179274502,
+      "absolute_zeta_residual": 3.9536340385892537e-10
+    },
+    {
+      "zero_index": 3708,
+      "gamma": 4225.722307331,
+      "absolute_zeta_residual": 9.8373347991973e-09
+    },
+    {
+      "zero_index": 4325,
+      "gamma": 4815.324276549,
+      "absolute_zeta_residual": 3.73539156796964e-09
+    },
+    {
+      "zero_index": 4943,
+      "gamma": 5395.116663428,
+      "absolute_zeta_residual": 3.4811889947991306e-09
+    },
+    {
+      "zero_index": 5561,
+      "gamma": 5965.736509168,
+      "absolute_zeta_residual": 4.70317310903146e-09
+    },
+    {
+      "zero_index": 6179,
+      "gamma": 6528.187904465,
+      "absolute_zeta_residual": 1.338227367313357e-09
+    },
+    {
+      "zero_index": 6797,
+      "gamma": 7083.62073418,
+      "absolute_zeta_residual": 2.4305683442697387e-09
+    },
+    {
+      "zero_index": 7414,
+      "gamma": 7632.009099304,
+      "absolute_zeta_residual": 8.850025075561661e-10
+    },
+    {
+      "zero_index": 8032,
+      "gamma": 8176.449213454,
+      "absolute_zeta_residual": 2.590230079304916e-09
+    },
+    {
+      "zero_index": 8650,
+      "gamma": 8715.58577995,
+      "absolute_zeta_residual": 4.752252672970729e-09
+    },
+    {
+      "zero_index": 9268,
+      "gamma": 9250.217232552,
+      "absolute_zeta_residual": 1.0374866364067878e-09
+    },
+    {
+      "zero_index": 9885,
+      "gamma": 9778.880763275,
+      "absolute_zeta_residual": 6.192861930426363e-10
+    },
+    {
+      "zero_index": 10503,
+      "gamma": 10305.204067103,
+      "absolute_zeta_residual": 2.025138852974068e-09
+    },
+    {
+      "zero_index": 11121,
+      "gamma": 10828.609784462,
+      "absolute_zeta_residual": 7.704260194294786e-10
+    },
+    {
+      "zero_index": 11739,
+      "gamma": 11347.603360741,
+      "absolute_zeta_residual": 2.351148832817838e-09
+    },
+    {
+      "zero_index": 12356,
+      "gamma": 11863.217790394,
+      "absolute_zeta_residual": 1.0127430810373228e-09
+    },
+    {
+      "zero_index": 12974,
+      "gamma": 12377.197188957,
+      "absolute_zeta_residual": 1.776373281850675e-09
+    },
+    {
+      "zero_index": 13592,
+      "gamma": 12887.606958049,
+      "absolute_zeta_residual": 6.4729502960429005e-09
+    },
+    {
+      "zero_index": 14210,
+      "gamma": 13395.405445599,
+      "absolute_zeta_residual": 2.3080735673812086e-11
+    },
+    {
+      "zero_index": 14828,
+      "gamma": 13900.306459849,
+      "absolute_zeta_residual": 5.384672458157945e-09
+    },
+    {
+      "zero_index": 15445,
+      "gamma": 14402.752059829,
+      "absolute_zeta_residual": 1.3866884379344653e-09
+    },
+    {
+      "zero_index": 16063,
+      "gamma": 14903.500369099,
+      "absolute_zeta_residual": 5.137910827104026e-09
+    },
+    {
+      "zero_index": 16681,
+      "gamma": 15402.656642594,
+      "absolute_zeta_residual": 2.152159504789005e-09
+    },
+    {
+      "zero_index": 17299,
+      "gamma": 15898.205823693,
+      "absolute_zeta_residual": 2.424424360884175e-09
+    },
+    {
+      "zero_index": 17916,
+      "gamma": 16392.231610437,
+      "absolute_zeta_residual": 2.0299601737364352e-09
+    },
+    {
+      "zero_index": 18534,
+      "gamma": 16884.948931057,
+      "absolute_zeta_residual": 9.265852817653744e-10
+    },
+    {
+      "zero_index": 19152,
+      "gamma": 17375.90192201,
+      "absolute_zeta_residual": 3.0191807120203303e-10
+    }
+  ],
+  "limitation": "Numerical spot checks of sourced approximations; not a new proof of zeros or completeness.",
+  "project_name": "v1_1000 Primes",
+  "data_provenance": "data/provenance.json"
+}

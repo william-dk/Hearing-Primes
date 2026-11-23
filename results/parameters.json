@@ -1,0 +1,65 @@
+{
+  "prime_count": 1000,
+  "first_prime": 2,
+  "last_prime": 7919,
+  "duration_s": 1025.7703349282297,
+  "seconds_per_unit": 0.1291866028708134,
+  "harmony_seconds": 3.9,
+  "zero_count": 19152,
+  "method_reference": "README.md#zero-field-and-reference",
+  "normalized_zero_field": "-2*sum((0.5*cos(gamma*ln(x))+gamma*sin(gamma*ln(x)))/(0.25+gamma^2))",
+  "window_average": "Exact analytic sinc average in ln(x)",
+  "reference": "Prime-power psi(x), with the elementary explicit-formula corrections, divided by sqrt(x) and averaged over the same ln(x) window",
+  "zero_selection": {
+    "policy": "At least prime_count as a conservative budget, range/resolution cutoff, then increase until measured log-window error meets tolerance.",
+    "minimum_count_budget": 1000,
+    "initial_spectral_cutoff": 1645.0304966360486,
+    "initial_zero_count": 1197,
+    "selected_zero_count": 19152,
+    "tolerance": 0.002,
+    "history": [
+      {
+        "zero_count": 1197,
+        "gamma_max": 1644.713745775,
+        "max_normalized_log_window_error": 0.006470114127078763,
+        "rms_normalized_log_window_error": 0.0023050593356859477
+      },
+      {
+        "zero_count": 2394,
+        "gamma_max": 2923.390932357,
+        "max_normalized_log_window_error": 0.013942007397443256,
+        "rms_normalized_log_window_error": 0.001349463320529921
+      },
+      {
+        "zero_count": 4788,
+        "gamma_max": 5250.675238104,
+        "max_normalized_log_window_error": 0.005293793198654324,
+        "rms_normalized_log_window_error": 0.0006032702663205801
+      },
+      {
+        "zero_count": 9576,
+        "gamma_max": 9514.814322806,
+        "max_normalized_log_window_error": 0.0030543531271636608,
+        "rms_normalized_log_window_error": 0.0003105019252014159
+      },
+      {
+        "zero_count": 19152,
+        "gamma_max": 17375.90192201,
+        "max_normalized_log_window_error": 0.0013181341645151223,
+        "rms_normalized_log_window_error": 0.00013632566665762273
+      }
+    ],
+    "claim": "Measured approximation accuracy on the analyzed windows only; not a universal truncation-error proof and not an exact reconstruction.",
+    "method_reference": "README.md#zero-field-and-reference",
+    "cache_sha256": "e1b371073028c8d2e014dc5eae97bafa99c06ecc960496ada50311dbe3b15d85",
+    "cached_count": 20923
+  },
+  "musical_mapping": "Empirical quantiles of the window field suggest C/Am/F/G; melody compatibility and mild repeat cost select a root/fifth dyad",
+  "no_single_zero_to_single_prime_mapping": true,
+  "no_zero_cycling": true,
+  "no_ordinate_reference_frequency_normalization": true,
+  "point_field_error_guarantee": false,
+  "limits": "Finite numerical zero approximations and measured log-window accuracy, not an exact or globally certified reconstruction; musical chord mapping remains artistic.",
+  "project_name": "v1_1000 Primes",
+  "data_provenance": "data/provenance.json"
+}
