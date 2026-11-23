@@ -1,0 +1,21 @@
+{
+  "source_name": "Andrew Odlyzko, Tables of zeros of the Riemann zeta function",
+  "source_table_total_count": 100000,
+  "cached_contiguous_prefix_count": 20923,
+  "published_absolute_ordinate_error_bound": 3e-09,
+  "precision_note": "Numerical approximations from the author's published table, not exact symbolic zeros.",
+  "retrieval_method": "Contiguous indexed prefix of the published numeric table; overlapping retrieved entries checked for agreement.",
+  "real_part_of_tabulated_zeros": 0.5,
+  "cache_sha256": "e1b371073028c8d2e014dc5eae97bafa99c06ecc960496ada50311dbe3b15d85",
+  "active_zero_count": 19152,
+  "used_data_sha256": "823e926e5cac99d8151759415e936b1a82921842aeb6242add05a3c029992d59",
+  "project_name": "v1_1000 Primes",
+  "data_files": {
+    "cache": "data/odlyzko_zeros.csv",
+    "selected_prefix": "data/zeros_used.csv"
+  },
+  "source_dataset": "First 100,000 positive-imaginary-part zeros; indexed numeric table",
+  "mathematical_reference": "NIST Digital Library of Mathematical Functions, section 25.16",
+  "method_reference": "README.md#zero-field-and-reference",
+  "network_required": false
+}
